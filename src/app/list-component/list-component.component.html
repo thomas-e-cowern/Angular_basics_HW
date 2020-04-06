@@ -1,0 +1,14 @@
+<p>list-component works!</p>
+  <br>
+  <a routerLink="/">Link to home</a>
+  <br>
+  <br>
+  <div *ngFor="let person of personList">
+    <div>{{ person.name }}</div>
+    <div>{{ person.userName }}</div>
+    <div>{{ person.email }}</div>
+    <div>{{ person.userExperience }}</div>
+    <div>{{person.isAdmin }}</div>
+    <br>
+  </div>
+
